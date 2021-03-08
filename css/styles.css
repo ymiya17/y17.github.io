@@ -1,47 +1,30 @@
-body {
-    font-family: 'Courier New', monospace;
-    font-size: 14px;
-  }
-  
-  table {
-    border-collapse: collapse;
-    border: 2px solid #eee;
-  }
-  
-  thead,
-  tfoot {
-    background: #eee;
-  }
-  
-  th,
-  td {
-    padding: 8px;
-    text-align: center;
-  }
-  
-  tbody td:first-child {
-    color: red;
-  }
-  
-  tbody td:last-child {
-    color: blue;
-  }
-  
-  tfoot {
-    font-weight: bold;
-  }
-  
-  td.disabled {
-    opacity: 0.3;
-  }
-  
-  td.today {
-    font-weight: bold;
-  }
-  
-  #prev,
-  #next,
-  #today {
-    cursor: pointer;
-    user-select: none;
-  }
+body{
+    background: #efefef;
+}
+
+#btn{
+width: 200px;
+height: 200px;
+background: #4bef45;
+
+border-radius: 50%;
+margin: 30px auto;
+text-align: center;
+line-height:200px;
+color: rgb(27, 22, 22);
+font-size:bold;
+font-size:42px;
+
+cursor: pointer;
+box-shadow: 0 10px 0 #10c41f;
+user-select: none;
+}
+
+#btn:hover{
+    opacity: 0.9;
+}
+
+#btn:active{
+    box-shadow: 0 5px 0 #34cc55;
+    margin-top: 35px;
+}
