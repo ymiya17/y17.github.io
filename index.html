@@ -15,19 +15,21 @@
     }
   </style>
   
-  <div class="box" id="target"></div>
+</head>
+<body>
+  <p>ダブルクリックしてください</p>
+   <div class="box" id="target"></div>
 
   <script>
     'use strict';
 
     document.getElementById('target').addEventListener('click', () => {
       document.getElementById('target').style.background = 'pink';
+      document.getElementById('target').style.borderRadius = '50%';
     });
   </script>
   
   
-</head>
-<body>
   <header>
     <img src="img/taro.png" width="120" height="120" alt="宮野靖章のアイコンです">
     <h1>宮野検証用その１</h1>
