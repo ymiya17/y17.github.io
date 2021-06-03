@@ -15,6 +15,17 @@
     }
   </style>
   
+  <div class="box" id="target"></div>
+
+  <script>
+    'use strict';
+
+    document.getElementById('target').addEventListener('click', () => {
+      document.getElementById('target').style.background = 'pink';
+    });
+  </script>
+  
+  
 </head>
 <body>
   <header>
@@ -30,9 +41,10 @@
         <img src="img/photos.png" width="20" height="20" alt="写真サイトへのリンク画像です">
       </li>
     </ul>  
-    
+   
   </header>
  
+  
   
   
   <p>JavaScript作成素材</p>
@@ -62,17 +74,6 @@
       <p><a href="https://ymiya17.github.io/MYOMIKUJI/"target="_blank">おみくじ</a><br>
     </section>
   </section>
-
-   <div class="box"></div>
-   <script>
-    'use strict';
-
-    document.getElementById('target').addEventListener('click', () => {
-      document.getElementById('target').style.background = 'pink';
-      document.getElementById('target').style.borderRadius = '50%';
-    });
-  </script>
-  
   
   <footer>
     <p>(c) 宮野Gitub.com</p>
